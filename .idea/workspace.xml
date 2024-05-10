@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fde79170-010c-4b7f-b3ea-cf0d1c23f7ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/cvDisplay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/errorPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/controller/CvController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/controller/CvController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/AutreType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/AutreType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/CV24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/CV24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/Certif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/Certif.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/Competence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/Competence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/Detail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/Detail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/Diplome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/Diplome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/Divers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/Divers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/Identite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/Identite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/LvType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/LvType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/Objectif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/Objectif.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/Prof.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/entities/Prof.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/services/XmlProcessorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/univrouen/ProjetXML/services/XmlProcessorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/controller/CvController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/controller/CvController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/AutreType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/AutreType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/CV24.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/CV24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/Certif.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/Certif.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/Competence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/Competence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/Detail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/Detail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/Diplome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/Diplome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/Divers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/Divers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/Identite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/Identite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/LvType$CertType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/LvType$CertType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/LvType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/LvType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/Objectif.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/Objectif.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/Prof.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/entities/Prof.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/services/XmlProcessorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/univrouen/ProjetXML/services/XmlProcessorService.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;koubaahm&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/koubaahm/ProjetXML.git&quot;,
+    &quot;accountId&quot;: &quot;e1219b19-f9f1-4e62-909c-25a93e065a76&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2fakFoHwi7yQPKBN7QO3TVIKrLM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ProjetXmlApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ahmed/Bureau/ProjetXML&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="ProjetXmlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="ProjetXML" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fr.univrouen.ProjetXML.ProjetXmlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fde79170-010c-4b7f-b3ea-cf0d1c23f7ca" name="Changes" comment="" />
+      <created>1714046475190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714046475190</updated>
+      <workItem from="1714046476677" duration="1672000" />
+      <workItem from="1714048154843" duration="1039000" />
+      <workItem from="1714049199995" duration="47000" />
+      <workItem from="1714049253754" duration="315000" />
+      <workItem from="1714049578810" duration="190000" />
+      <workItem from="1714049778116" duration="6467000" />
+      <workItem from="1714130038000" duration="571000" />
+      <workItem from="1714130615584" duration="730000" />
+      <workItem from="1714131360419" duration="7204000" />
+      <workItem from="1714145188741" duration="1615000" />
+      <workItem from="1714146979041" duration="1633000" />
+      <workItem from="1714148618834" duration="12831000" />
+      <workItem from="1714220384380" duration="10633000" />
+      <workItem from="1714231027854" duration="14841000" />
+      <workItem from="1714298361344" duration="3052000" />
+      <workItem from="1714314789231" duration="7671000" />
+      <workItem from="1714323978028" duration="4779000" />
+      <workItem from="1714441880338" duration="1685000" />
+      <workItem from="1714448462511" duration="757000" />
+      <workItem from="1714474688221" duration="3000" />
+      <workItem from="1714474720658" duration="3000" />
+      <workItem from="1714480701051" duration="40988000" />
+      <workItem from="1714833622726" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

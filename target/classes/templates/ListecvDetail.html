@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Liste des CVs</title>
+    <!-- Inclusion de Bootstrap pour le design responsive et attractif -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="mb-4">Liste des CVs</h1>
+    <div th:each="cv : ${cvs}" class="card mb-3"> <!-- Assurez-vous que l'attribut dans le modèle est 'cvs' -->
+        <div class="card-header">
+            <h2>CV ID: <span th:text="${cv.id}"></span></h2>
+        </div>
+        <div class="card-body">
+            <h3>Identité</h3>
+            <p>Nom : <span th:text="${cv.identite.nom}"></span></p>
+            <p>Prénom : <span th:text="${cv.identite.prenom}"></span></p>
+
+            <h3>Objectif</h3>
+            <p>Statut : <span th:text="${cv.objectif.status}"></span></p>
+
+            <h3>Profil Professionnel</h3>
+            <div th:each="detail : ${cv.prof.details}">
+                <p>Détail: <span th:text="${detail.titre}"></span>, De: <span th:text="${#dates.format(detail.datedeb, 'dd/MM/yyyy')}"></span>, À: <span th:text="${#dates.format(detail.datefin, 'dd/MM/yyyy')}"></span></p>
+            </div>
+
+            <h3>Compétences</h3>
+            <div th:each="diplome : ${cv.competence.diplomes}">
+                <p>Diplôme: <span th:text="${diplome.institut}"></span>, Date: <span th:text="${#dates.format(diplome.date, 'dd/MM/yyyy')}"></span></p>
+            </div>
+            <div th:each="certif : ${cv.competence.certifs}">
+                <p>Certification: <span th:text="${certif.titre}"></span>, Date début: <span th:text="${#dates.format(certif.datedeb, 'dd/MM/yyyy')}"></span>, Date fin: <span th:text="${#dates.format(certif.datefin, 'dd/MM/yyyy')}"></span></p>
+            </div>
+
+            <h3>Divers</h3>
+            <div th:each="lv : ${cv.divers.lv}">
+                <p>Langue: <span th:text="${lv.lang}"></span>, Certificat: <span th:text="${lv.cert}"></span>, Niveau (système): <span th:text="${lv.nivs}"></span>, Niveau (indice): <span th:text="${lv.niv}"></span></p>
+            </div>
+            <div th:each="autre : ${cv.divers.autre}">
+                <p>Autre Détail: <span th:text="${autre.titre}"></span>, Commentaire: <span th:text="${autre.comment}"></span></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Scripts de Bootstrap pour les composants interactifs (facultatif) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
